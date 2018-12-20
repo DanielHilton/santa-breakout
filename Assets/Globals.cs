@@ -3,12 +3,12 @@ namespace Application
 {
     public static class Globals
     {
-        public static int Lives = 1;
-        public static int BlockCount = 1;
+        public static int Lives = 3;
+        public static int BlockCount = 12;
 
         public static void ResetGame(){
-            Lives = 1;
-            BlockCount = 1;
+            Lives = 3;
+            BlockCount = 12;
         }
     }
 }
